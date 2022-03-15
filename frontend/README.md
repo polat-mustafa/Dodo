@@ -145,3 +145,17 @@ Yukarıdaki TodoPage içerisinde TodoItems componentine props gönderdik. todo={
 showTodo yu mapledik ve showTodo içerisindeki her bir objeyi todo parametresiyle dinamik olarak sayfada listelemek için TodoItems componentine gönderdik.
 
 Spinner componenti yükleniyor göstermek için kullanılır. Sayfa yüklenirken gösterilen animasyonu tanımlar.
+
+<br/>
+
+
+```
+import { useParams, useNavigate }
+
+    const { id } = useParams();
+    //console.log(id)
+
+    const navigate = useNavigate();
+```
+
+useParams sayfanın urlsini alır. useNavigate ise fonskiyon içeriinde yönlendirmeye yarar.
