@@ -3,7 +3,9 @@
 <h2> Uygulama çalışma aşamaları </h2>
 <br/>
 <p> Uygulama 4 temel işlem üzerine kurulmuştur. 'CRUD' olarak adlandırılan, Create - Read - Update - Delete işlemleridir. Bunlar oluşturma, okuma, güncelleme ve silme, veri depolama olarak Türkçeye çevrilebilir.</p>
-<p>CRUD u uygulamamız üzerinden örnekleyecek olursak, Add Todo başlıgı altındaki Form submit edildiğinde database imize post isteği gerçekleşir ve MongoDb içerisnde oluşturduğumuz Collections da yeni bir JSON objesi yaratır.</p>
+<p>CRUD u uygulamamız üzerinden örnekleyecek olursak, Add Todo başlıgı altındaki Form submit edildiğinde database imize post isteği gerçekleşir ve MongoDb içerisnde oluşturduğumuz Collections da yeni bir JSON objesi yaratır. Bu bir create olarak adlandırılır.</p>
+
+Kalan işlemler de put, delete ve get işlemleridir.
 
 <p>**Dökümanın Backend ve Frontend kısımlarında uygulamanın detaylı açıklamaları yazılmıştır.</p>
 <h2> 1- Backend </h2>
